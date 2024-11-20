@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/frame1sfundo"/>
+
+    <EditText
+        android:id="@+id/etNomeCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Cliente"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etCNPJ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CNPJ"
+        android:layout_marginTop="8dp"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/etDescricaoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição"
+        android:layout_marginTop="8dp"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/etEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endereço"
+        android:layout_marginTop="8dp"
+        android:inputType="textMultiLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white"/>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

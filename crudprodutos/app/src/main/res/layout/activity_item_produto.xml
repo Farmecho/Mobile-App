@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/tvNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Produto"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvDescricaoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição do produto"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvPrecoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preço: R$ 0.00"
+        android:textSize="14sp"/>
+</LinearLayout>
